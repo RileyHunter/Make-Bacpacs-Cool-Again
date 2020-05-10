@@ -27,5 +27,7 @@ I often need to deploy such backups to test new features locally, and I didn't f
 
 ## Author
 Riley Hunter
+
 11/05/2020
+
 https://github.com/RileyHunter/RemoveExternalDataSources
