@@ -44,7 +44,7 @@ for file in files_to_process:
                file_path = os.path.join(folder_name, file_name)
                zip_ref.write(file_path, Path().joinpath(*Path(file_path).parts[1:]))
     
-    #os.rename(file, Path(processed_dir) / file.name)
+    os.rename(file, Path(processed_dir) / file.name)
     shutil.rmtree(working_dir)
     Path(working_dir).mkdir(parents=True, exist_ok=True)
     print(f'Done with {file.name}')
